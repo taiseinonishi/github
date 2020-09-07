@@ -261,80 +261,9 @@ table {
   padding:0;
 }
 
-/*ここからportfolio.index*/
-#portfolio {
-  background-image: url(../images/bg-portfolio-sp.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-.main {
-  width: 700px;
-  margin: 0 10px;
-  float: left;
-}
-
-.sidebar {
-  width: 200px;
-  margin: 0 10px 0 30px;
-  float: right;
-  font-family: 'Bitter', serif;
-}
-
-a img:hover {
-  opacity: 0.8;
-}
-
-.sidebar h2 {
-  margin-bottom: 10px;
-}
-
-
-.sidebar ul {
-  font-size: 16px;
-  margin-left: 20px;
-}
-
-.sidebar ul a {
-  color: #333333;
-}
-
-/*ここからphotographとvideo*/
-#photograph {
-  background-image: url(../images/bg-photograph.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-#photograph {
-  background-color: #ffffff;
-}
-
-#photograph .photograph-list li {
-  float: left;
-  list-style: none;
-  margin: 0 20px 15px 0;
-}
-
-#photograph .photograph-list li:nth-child(3n) {
-  margin-right: 0;
-}
-
-#video {
-  background-image: url(../images/bg-video.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% ;
-}
-
 /*contact開始*/
 #contact {
-  background-image: url(../images/old-1130731_960_720.webp);
+  background-image: url(https://raw.githubusercontent.com/taiseinonishi/github/master/old-1130731_960_720.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
