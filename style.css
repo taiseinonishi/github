@@ -438,3 +438,7 @@ s
 .profile-txt li{
   list-style: none;
 }
+
+section .access .clearfix td {
+ text-align: center;
+}
