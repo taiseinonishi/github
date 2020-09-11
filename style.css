@@ -357,9 +357,8 @@ s
   margin: 20px 0 0 165px;
 }
 
-#contact .access td img {
-  margin-left: 10px;
-  
+section .access .clearfix a{
+ textalign: center;
 }
 @media screen and (max-width:600px){
 /*画面のサイズが600px以下の場合に適用*/
