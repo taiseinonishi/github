@@ -357,7 +357,7 @@ s
   margin: 20px 0 0 165px;
 }
 
-section .access .clearfix a{
+section .access .clearfix img{
  textalign: center;
 }
 @media screen and (max-width:600px){
