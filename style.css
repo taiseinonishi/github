@@ -427,13 +427,13 @@ s
 }
 
 .profile img {
-  width: 340px;
+  width: 300px;
 }
 
 .profile-txt li{
   list-style: none;
 }
 
-section .access .clearfix td {
- text-align: center;
-}
+section .access td {
+  text-align: center;
+]
