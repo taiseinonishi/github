@@ -356,13 +356,6 @@ s
 #contact .form .attention {
   margin: 20px 0 0 165px;
 }
-
-section .access .clearfix img{
- textalign: center;
-}
-
-section .access .clearfix td {
-textalign: center;
 @media screen and (max-width:600px){
 /*画面のサイズが600px以下の場合に適用*/
   
