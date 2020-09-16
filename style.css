@@ -1,4 +1,4 @@
-charset "UTF-8";
+@charset "UTF-8";
 
 body {
   margin: 0;
@@ -94,15 +94,6 @@ footer small {
 }
 
 /*ここからindex.htmlを記述*/
-
-#index {
-  background-image: url(apple-1841281_960_720.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
 #index h1 {
   font-size: 100px;
   line-height: 1;
@@ -159,17 +150,12 @@ footer small {
   background-color: transparent;
 }
 
-.video-wrap {
-  position: relative;
-}
-p {
-  font-family: serif;          
-  color: #fff;
-  font-size: 400%;
-  position: absolute;
-  left: 30%;
-  top: 200px;
-  z-index: 1;
+#index {
+  background-image: url(https://github.com/taiseinonishi/github/blob/master/apple-1841281_960_720.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /*ここからabout.html記述*/
@@ -441,13 +427,13 @@ s
 }
 
 .profile img {
-  width: 340px;
+  width: 300px;
 }
 
 .profile-txt li{
   list-style: none;
 }
 
-#contact table td {
- text-align:center;
-}
+section .access td {
+  text-align: center;
+]
