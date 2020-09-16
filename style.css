@@ -94,6 +94,15 @@ footer small {
 }
 
 /*ここからindex.htmlを記述*/
+
+#index {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
 #index h1 {
   font-size: 100px;
   line-height: 1;
