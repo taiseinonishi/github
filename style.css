@@ -150,12 +150,17 @@ footer small {
   background-color: transparent;
 }
 
-#index {
-  background-image: url(https://github.com/taiseinonishi/github/blob/master/apple-1841281_960_720.jpg?raw=true);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+.video-wrap {
+  position: relative;
+}
+p {
+  font-family: serif;          
+  color: #fff;
+  font-size: 400%;
+  position: absolute;
+  left: 30%;
+  top: 200px;
+  z-index: 1;
 }
 
 /*ここからabout.html記述*/
