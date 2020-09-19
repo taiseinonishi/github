@@ -151,7 +151,7 @@ footer small {
 }
 
 #index {
-  background-image: url(https://github.com/taiseinonishi/github/blob/master/apple-1841281_960_720.jpg?raw=true);
+  background-image: url(../Portfolio/images/apple-1841281_960_720.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -160,7 +160,7 @@ footer small {
 
 /*ここからabout.html記述*/
 #about {
-  background-image: url(https://raw.githubusercontent.com/taiseinonishi/github/master/cup-of-coffee-1280537_960_720.webp);
+  background-image: url(../Portfolio/images/cup-of-coffee-1280537_960_720.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -193,8 +193,6 @@ h2 {
   float: left;
   width: 540px
 }
-
-
 
 #about .profile-txt span {
   font-weight: bold;
@@ -234,7 +232,6 @@ section {
 
 table {
   border-spacing: 0;
-/*下のプロパティを削除する？？*/
   border-collapse: collapse;
 }
 /*aboutの追加*/
@@ -253,7 +250,6 @@ table {
   border: 1px solid #cccccc;
 }
 
-
 /*index.htmlに影響を与えているため記述*/
 #index #wrap {
   background-color: transparent;
@@ -263,7 +259,7 @@ table {
 
 /*contact開始*/
 #contact {
-  background-image: url(https://raw.githubusercontent.com/taiseinonishi/github/master/old-1130731_960_720.webp);
+  background-image: url(../Portfolio/images/old-1130731_960_720.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -279,6 +275,10 @@ table {
   text-align: center;
   vertical-align: top;
   line-height: 2.5;
+}
+
+#contact .access td {
+  padding-left: 30px;
 }
 
 #contact .access iframe {
@@ -356,84 +356,16 @@ s
 #contact .form .attention {
   margin: 20px 0 0 165px;
 }
-@media screen and (max-width:600px){
-/*画面のサイズが600px以下の場合に適用*/
+
+#contact .access td img {
+  margin-left: 10px;
   
-  body {
-    font-size: 3.5vw;
-  }
-  
-  h1 {
-    font-size: 7.2vw
-  }
-  
-  h2 {
-    font-size: 6vw
-  }
-  
-  header {
-    width: auto;
-    margin: 0 5%;
-  }
-  
-  .logo {
-    float: none;
-    margin-top: 60px;
-    text-align: center;
-  }
-  
-  .global-nav {
-    float: none;
-    margin-top: 40px;
-    text-align: center;
-  }
-  
-  .global-nav li {
-    display: inline;
-    float: none;
-    margin: 0 8px;
-  }
-  
-  #wrap {
-    margin-top: 40px;
-    padding: 35px 0 0;
-  }
-  
-  .content {
-    width: 100%;
-  }
-  
-  .main {
-    float: none;
-    width: auto;
-    margin 0 5%;
-  }
-  
-  h2 img {
-    max-width: 100px;
-  }
-  
-  #porgfolio {
-    background-image: url(../images/bg-portfolio-sp.jpg)
-  }
-  
-  .sidebar {
-    width: auto;
-    float: none;
-    margin: 0;
-    padding: 30px 10px 10px;
-    background-color: #f7f6f4;
-  }
 }
 
 .profile img {
-  width: 300px;
+  width: 340px;
 }
 
 .profile-txt li{
   list-style: none;
 }
-
-#contact .access td {
-  float: right;
-]
