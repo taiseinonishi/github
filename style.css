@@ -434,6 +434,6 @@ s
   list-style: none;
 }
 
-section .access td {
-  text-align: center;
+#contact .access td {
+  float: right;
 ]
