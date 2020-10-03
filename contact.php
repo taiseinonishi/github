@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" ,initial-svale=1>
+  <title>Contact| Taisei Onishi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="contact">
+
+  <!--headerの始まり-->
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo%20.png" alt="" SNAPPERS></a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--headerの終わり-->
+
+  <!--wrapの始まり-->
+  <div id="wrap">
+    <div class="content">
+      <div class="main-center">
+        <h1>Contact</h1>
+        <p></p>
+        <section class="access clearfix">
+          <h2 class="icon">Access</h2>
+          <table>
+            <tr>
+              <th>住所</th>
+              <td>〒334-0001<br>埼玉県川口市桜町1-2-28</td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td>09092096513</td>
+            </tr>
+            <tr>
+              <th>メールアドレス</th>
+              <td>reeksge@gmail.com</td>
+            </tr>
+            <tr>
+              <th>SNS</th>
+              <td><a href="https://twitter.com/home" class="sns"><img src="images/twitter.png"></a><a href=""><img src="images/FACEBOOK%E9%A2%A8%E3%81%AE%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%B4%A0%E6%9D%90.png"></a></td>
+            </tr>
+          </table>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6468.819900028072!2d139.73621767592934!3d35.8389501181512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189467b1302577%3A0xc466b7e86d67b0b7!2z44CSMzM0LTAwMDEg5Z-8546J55yM5bed5Y-j5biC5qGc55S6!5e0!3m2!1sja!2sjp!4v1600495084903!5m2!1sja!2sjp" width="460" height="220" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        <section>
+          <h2 class="icon">Contact form</h2>
+          <div class="form">
+            <form action="mail_confirm.php" method="post">
+              <dl>
+                <dt><span class="required">お名前</span></dt>
+                <dd><input type="text" name="name" class="name" required></dd>
+                <dt><span class="required">メールアドレス</span></dt>
+                <dd><input type="mail" name="mail" class="mail" required></dd>
+                <dt>お電話番号</dt>
+                <dd><input type="tel" name="tel" class="tel"></dd>
+                <dt>お問い合わせ種別</dt>
+                <dd><select name="type" class="type">
+                    <option value="お問い合わせ内容">お問い合わせ内容</option>
+                    <option value="仕事の依頼">仕事の依頼</option>
+                    <option value="質問・要望">質問・要望</option>
+                  </select>
+                </dd>
+                <dt>ご希望のご連絡方法</dt>
+                <dd>
+                  <label><input type="radio" name="contact" value="Eメール">Eメール</label>
+                  <label><input type="radio" name="contact" value="お電話">お電話</label>
+                </dd>
+                <dt>メッセージ</dt>
+                <dd><textarea name="message" class="message" placeholder="その他"></textarea></dd>
+              </dl>
+              <button type="submit" class="btn">送信</button>
+            </form>
+            <div class="attention">
+              <p>※　「<span class="required"></span>」のついている項目は必須項目です。</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!--wrapの終わり-->
+
+  <!--footerの始まり-->
+  <footer>
+    <small>(c) 2020 Ohnishi-studio.</small>
+  </footer>
+  <!--footerの終わり-->
+
+</body>
+
+</html>
