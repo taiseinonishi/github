@@ -11,7 +11,7 @@
 
     <header class="">
         <div class="logo">
-            <a href="index.html"><img src="images/logo%20.png" alt="" Taisei Ohnishi></a>
+            <a href="index.html"><img src="https://github.com/taiseinonishi/github/blob/master/logo%20.png?raw=true" alt="" Taisei Ohnishi></a>
         </div>
         <nav>
             <ul class="global-nav">
