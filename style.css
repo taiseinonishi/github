@@ -1,371 +1,489 @@
 @charset "UTF-8";
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #cccccc;
-  color: #333333;
-  font-size: 15px;
-  line-height: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
 }
 
-p,h1,h2,h3,h4,h5,h6 {
-  margin-top: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
 }
 
 img {
-  vertical-align: bottom;
+    vertical-align: bottom;
 }
 
 ul {
-  margin: 0;
-  padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-  color: #3583aa;
-  text-decoration: none;
+    color: #3583aa;
+    text-decoration: none;
 }
 
 a:visited {
-  color: #788d98;
+    color: #788d98;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 header {
-  width: 960px;
-  height: 100px;
-  margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
 }
 
 .logo {
-  float: left;
-  margin-top: 50px;
+    float: left;
+    margin-top: 50px;
 }
 
 .global-nav {
-  float: right;
-  margin-top: 60px;
+    float: right;
+    margin-top: 60px;
 }
 
 .global-nav li {
-  float: left;
-  margin: 0 20px;
-  font-size: 20px;
-  list-style: none;
-  font-family: 'Bitter', serif;
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Bitter', serif;
 }
 
 .global-nav li a {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .global-nav li a:hover {
-  border-bottom: 2px solid #ffffff;
-  padding-bottom: 3px;
-  text-decoration: none;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
 }
 
 #wrap {
-  clear: both;
-  background-color: #ffffff;
-  margin-top: 220px;
-  padding: 35px 0;
+    clear: both;
+    background-color: #ffffff;
+    margin-top: 220px;
+    padding: 35px 0;
 }
 
 .content {
-  width: 960px;
-  margin: 0 auto;
+    width: 960px;
+    margin: 0 auto;
 }
 
 footer {
-  text-align: center;
-  color:#ffffff;
-  padding: 20px 0;
-/*下のカラーを変更する？*/
-  background-color: #767671;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    /*下のカラーを変更する？*/
+    background-color: #767671;
 }
 
 footer small {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 /*ここからindex.htmlを記述*/
 #index h1 {
-  font-size: 100px;
-  line-height: 1;
-  color: #ffffff;
-  font-family: 'Bitter', sans-serif;
-  margin-bottom: 50px;
-  border: none;
+    font-size: 100px;
+    line-height: 1;
+    color: #ffffff;
+    font-family: 'Bitter', sans-serif;
+    margin-bottom: 50px;
+    border: none;
 }
 
 #index .content {
-  margin-top: 150px;
+    margin-top: 150px;
 }
 
 #index p {
-  font-size: 16px;
-  color:#ffffff;
+    font-size: 16px;
+    color: #ffffff;
 }
 
 #index #wrap h1 {
-  font-size: 80px
-}
-.btn a {
-  background-color: #009cd3;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: 'Bitter', serif;
-  width: 185px;
-  display: block;
-  text-align: center;
-  line-height: 50px;
-  margin-top: 100px;
-  border-radius: 5px;
-  border: 3px solid #009cd3;
-  text-decoration: none;
-  float: left
+    font-size: 80px
 }
 
- #index .content .check {
- float: right;
- margin-top: 90px;
- margin-right: 300px;
- font-size: 40px
+.btn a {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    width: 185px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    text-decoration: none;
+    float: left
+}
+
+#index .content .check {
+    float: right;
+    margin-top: 90px;
+    margin-right: 300px;
+    font-size: 40px
 }
 
 .btn a:hover {
     background-color: #ffffff;
     color: #009cd3;
-  }
+}
 
 #index footer {
-  width: 960px;
-  margin: 350px auto 0 auto;
-  text-align: left;
-  background-color: transparent;
+    width: 960px;
+    margin: 350px auto 0 auto;
+    text-align: left;
+    background-color: transparent;
 }
 
 #index {
-  background-image: url(https://github.com/taiseinonishi/github/blob/master/apple-1841281_960_720.jpg?raw=true);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
+    background-image: url(images/apple-1841281_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /*ここからabout.html記述*/
 #about {
-  background-image: url(https://raw.githubusercontent.com/taiseinonishi/github/master/cup-of-coffee-1280537_960_720.webp);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
+    background-image: url(images/cup-of-coffee-1280537_960_720.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
 }
 
 .main-center {
-  width: 940px;
-  margin: 0 auto;
+    width: 940px;
+    margin: 0 auto;
 }
 
 h1 {
-  font-family: 'Bitter', serif;
-  font-size: 35px;
-  border-bottom: 1px solid #cccccc;
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+    border-bottom: 1px solid #cccccc;
 }
 
 h2 {
-  font-family: 'Bitter', serif;
-  font-size: 24px;
+    font-family: 'Bitter', serif;
+    font-size: 24px;
 }
 
 .icon:before {
-  content:  "";
-  padding-right: 10px;
-  border-left: 7px solid #9cb4a4;
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #9cb4a4;
 }
 
 #about .profile-txt {
-  float: left;
-  width: 540px
+    float: left;
+    width: 540px
 }
 
 #about .profile-txt span {
-  font-weight: bold;
-  font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #about .profile-image {
-  float: right;
-  margin-top: 150px;
+    float: right;
+    margin-top: 150px;
 }
 
 .clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 section {
-  margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 #about .career th {
-  width: 240px;
-  background-color: #f0f0f0;
-  padding: 12px 0;
+    width: 240px;
+    background-color: #f0f0f0;
+    padding: 12px 0;
 }
 
 #about .career th {
-  border: 1px solid #cccccc;
+    border: 1px solid #cccccc;
 }
 
 #about .career td {
-  width: 660px;
-  padding: 12px 0 12px 40px;
-  border: 1px solid #cccccc;
+    width: 660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid #cccccc;
 }
 
 table {
-  border-spacing: 0;
-  border-collapse: collapse;
+    border-spacing: 0;
+    border-collapse: collapse;
 }
+
 /*aboutの追加*/
 #about .profile-txt th {
-  width: 240px;
-  padding: 12px 0;
+    width: 240px;
+    padding: 12px 0;
 }
 
 #about .profile-txt th {
-  border: 1px solid #cccccc;
+    border: 1px solid #cccccc;
 }
 
 #about .profile-txt td {
-  width: 660px;
-  padding: 12px 0 12px 40px;
-  border: 1px solid #cccccc;
+    width: 660px;
+    padding: 12px 0 12px 40px;
+    border: 1px solid #cccccc;
 }
 
 /*index.htmlに影響を与えているため記述*/
 #index #wrap {
-  background-color: transparent;
-  margin-top: 0;
-  padding:0;
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
 }
 
 /*contact開始*/
 #contact {
-  background-image: url(https://raw.githubusercontent.com/taiseinonishi/github/master/old-1130731_960_720.webp);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
+    background-image: url(images/old-1130731_960_720.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
 }
 
 #contact .access table {
-  float: left
+    float: left
 }
 
 #contact .access th,
 #contact .access td {
-  text-align: center;
-  vertical-align: top;
-  line-height: 2.5;
+    text-align: center;
+    vertical-align: top;
+    line-height: 2.5;
 }
 
 #contact .access td {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
 #contact .access iframe {
-  width: 460px;
-  float: right;
+    width: 460px;
+    float: right;
 }
-s
-#contact .form {
-  background-color: #eaeaea;
-  padding: 30px 50px;
+
+s #contact .form {
+    background-color: #eaeaea;
+    padding: 30px 50px;
 }
 
 #contact .form dl dt {
-  width: 165px;
-  padding: 10px 0;
-  float: left;
-  clear: both;
+    width: 165px;
+    padding: 10px 0;
+    float: left;
+    clear: both;
 }
 
 #contact .form dl dd {
-  padding: 10px 0 ;
+    padding: 10px 0;
 }
 
 
 #contact .form .name {
-  width: 240px;
-  height: 30px;
+    width: 240px;
+    height: 30px;
 }
 
 #contact .form .email {
-  width: 300px;
-  height: 30px;
+    width: 300px;
+    height: 30px;
 }
 
 #contact .form .tel {
-  width: 240px;
-  height: 30px;
+    width: 240px;
+    height: 30px;
 }
 
 #contact .form .type {
-  width: 180px;
-  height: 30px;
+    width: 180px;
+    height: 30px;
 }
 
 #contact .form .message {
-  width: 660px;
-  height: 150px;
+    width: 660px;
+    height: 150px;
 }
 
-#contact  .form button {
-  background-color: #009cd3;
-  color: #ffffff;
-  font-size: 20px;
-  width: 120px;
-  display: block;
-  text-align: center;
-  line-height: 50px;
-  border-radius: 5px;
-  border: 3px solid #009cd3;
-  margin-left: 165px;
+#contact .form button {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    width: 120px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    margin-left: 165px;
 }
 
 #contact .form button:hover {
-  background-color: #ffffff;
-  color: #009cd3;
-  cursor: pointer;
+    background-color: #ffffff;
+    color: #009cd3;
+    cursor: pointer;
 }
 
 
 #contact .form .required:after {
-  content: "★";
-  color: #ff0000;
+    content: "★";
+    color: #ff0000;
 }
 
 #contact .form .attention {
-  margin: 20px 0 0 165px;
+    margin: 20px 0 0 165px;
 }
 
 #contact .access td img {
-  margin-left: 10px;
-  
+    margin-left: 10px;
+
 }
 
 .profile img {
-  width: 340px;
+    width: 340px;
 }
 
-.profile-txt li{
-  list-style: none;
+.profile-txt li {
+    list-style: none;
 }
+
+#confirm {
+    background-image: url(images/old-1130731_960_720.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#confirm .confirm .p{
+text-align: center;
+}
+
+#confirm h1 {
+    margin: 100px 100px 0 30px;
+}
+
+#confirm .contacts {
+    margin: 0 0 100px 100px;
+}
+
+#confirm .contacts p {
+    font-size: 20px;
+}
+
+#confirm .contacts strong {
+    border-bottom: 2px solid white;
+    font-size: 25px;
+}
+
+#confirm main {
+    margin: 0 100px 0 100px;
+}
+
+#confirm .button1 {
+    background-color: lightgray;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    width: 185px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 20px 50px 300px;
+    border-radius: 5px;
+    border: 3px solid lightgray;
+    text-decoration: none;
+    float: left
+        
+}
+
+#confirm .button2 {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    width: 185px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    text-decoration: none;
+    float: left
+}
+
+
+#cheack {
+    background-image: url(images/old-1130731_960_720.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+#cheack h1 {
+    margin: 100px 100px 0 30px;
+}
+
+#cheack .button {
+
+    margin: 30px 0 0 30px;
+}
+
+#cheack p {
+    margin: 100px 0 0 30px;
+    clear: both;
+}
+
+#cheack .button a {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    width: 185px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 100px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    text-decoration: none;
+    float: left
+}
+
+/*ここからレスポンシブ対応させる*/
+@media screen and (max-width: 480px) {}
