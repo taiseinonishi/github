@@ -167,7 +167,7 @@ footer small {
 
 /*ここからabout.html記述*/
 #about {
-    background-image: url(images/cup-of-coffee-1280537_960_720.webp);
+    background-image: url(https://raw.githubusercontent.com/taiseinonishi/github/master/cup-of-coffee-1280537_960_720.webp);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
